@@ -11,4 +11,8 @@ public extension Collection where Element: Hashable {
     let unique = Set(self)
     return Array(unique)
   }
+  
+  subscript (safe index: Index) -> Element? {
+    return indices.contains(index) ? self[index] : nil
+  }
 }
