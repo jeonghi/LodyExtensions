@@ -1,7 +1,8 @@
 //
-//  Collection+Ex.swift
+//  Array+Ex.swift
 //
-//  Created by Lody on 5/8/24.
+//
+//  Created by 쩡화니 on 7/2/24.
 //
 
 import Foundation
